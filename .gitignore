@@ -1,0 +1,29 @@
+# Build products and local state
+.build/
+.swiftpm/
+dist/
+*.app/
+*.dSYM/
+.DS_Store
+.AppleDouble/
+__MACOSX/
+
+# Private configuration, credentials, media and local records
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.log
+*.zip
+*.mov
+*.mp4
+*.m4v
+Tests/Results/
+Backup/
+.agents/
+.codex/
+.aws/
